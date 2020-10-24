@@ -2,7 +2,7 @@
 
 ## Installation
 Download the files and get them into the same folder in your 
-server, it could eventually be a LAMP or XAMP server setup. Create new database called cego and insert SQL from https://github.com/cego/interview-assignment to have some data that is available to get, validate and delete.
+server, it could eventually be a LAMP or XAMP server setup. Create new database called cego and insert SQL from https://github.com/cego/interview-assignment to have some data that is available to get, validate and delete. To run the software insert direction to Get_and_check.php file in your choosen browser.
 
 ## Explanation
 The Get_and_check file starts by getting the data from the database and inserting it into a .csv file. 
