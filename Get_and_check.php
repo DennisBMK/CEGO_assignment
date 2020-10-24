@@ -5,7 +5,6 @@ include('db_connect.php');
 //Function that deletes all data from database
 function deleteDB() {
     include('db_connect.php');
-    //https://www.tutorialspoint.com/php/mysql_delete_php.htm
     $deletesql = "DELETE FROM users";
             
     if (mysqli_query($conn, $deletesql)) {
